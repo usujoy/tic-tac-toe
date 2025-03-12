@@ -86,8 +86,8 @@ class Game {
 
 const startGame = () => {
   const game = new Game();
-  const board = document.querySelector(".outerBox");
-  const messageArea = document.querySelector(".messageArea");
+  const board = document.querySelector(".outer-box");
+  const messageArea = document.querySelector(".message-area");
   const button = document.querySelector(".reset");
 
   board.addEventListener("click", () => {
